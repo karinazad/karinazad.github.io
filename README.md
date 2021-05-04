@@ -1,1 +1,0 @@
-# karinazad.github.io
