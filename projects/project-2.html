@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Project Detail - fbGAN Feedback Generative Adversarial Network</title>
+  <title>Project Detail - Uncertainty and OOD</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -89,18 +89,56 @@
               <li><strong>Keywords</strong>: <br> Machine Learning, <br>Uncertainty Estimation, <br>Out Of Distribution detection,
                <br> Medical AI,<br> Electronic Health Records</li>
               <li><strong>Date</strong>: January-August, 2021</li>
-              <li><strong>Link</strong>: <a href="https://pacmedhealth.medium.com/out-of-distribution-detection-in-medical-ai-b638b385c2a3">Blog Post</a></li>
+              <li><strong>Team</strong>: Pacmed BV, Amsterdam</li>
+              <li><strong>Links</strong>:
+                <br>
+                <a href="https://pacmedhealth.medium.com/out-of-distribution-detection-in-medical-ai-b638b385c2a3">
+                  Blog Post</a></li>
+
+              <a href="http://www.gatsby.ucl.ac.uk/~balaji/udl2021/accepted-papers/UDL2021-paper-020.pdf">
+                  ICML 2021 UDL Paper</a></li>
+
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>Out-of-Distribution Detection in Medical AI </h2>
+          <h2 class = "subsection">Out-of-Distribution Detection in Medical AI </h2>
           <p>
         Machine learning models assume that new samples are similar to data they have been trained on. More precisely, we assume that the data is independent and identically distributed. Samples that are similar to training data are considered to be in-distribution.
-  However, in practice, we have no guarantee that a model will only see data that it similar to data it has been trained and tested on. Samples that are not well represented in the training dataset are considered to be Out-Of-Distribution (OOD).
-            However, are many clinically relevant scenarios that can lead to changes in data distribution.  </p>
+        However, in practice, we have no guarantee that a model will only see data that it similar to data it has been trained and tested on. Samples that are not well represented in the training dataset are considered to be Out-Of-Distribution (OOD).
+
+          <br> <br>
+            There are many clinically relevant scenarios that can lead to changes in data distribution. For example,
+            patient demographics can change over time, there can be changes in the way data are collected in hospitals,
+            or there appears a novel disease. Therefore, it is necessary to have safety checks on deployed models.
+
+            <br><br>
+            In this work, we used density estimators such as Variational Autoencoders (VAE), Normalizing Flows,
+            or Deep Neural Gaussian Processes to learn data distribution and score samples based on their novelty.
+          </p>
+        </div>
+
+
+         <h3  class = "subsection">Associated publications: </h3>
+        <div class="portfolio-description">
+          <div>
+              <h4 class="title"><a href="">
+                Out-of-Distribution Detection for Medical Applications: Guidelines for Practical Evaluation</a></h4>
+            <h4 class="description">(submitted)</h4>
+            <p class="description"><b>Zadorozhny Karina</b>, Patrick Thoral, Cinà Giovanni</p>
+          </div>
+        </div>
+
+        <div class="portfolio-description">
+          <div>
+              <h4 class="title"><a href="http://www.gatsby.ucl.ac.uk/~balaji/udl2021/accepted-papers/UDL2021-paper-020.pdf">
+                Failures of Uncertainty Estimation on Out-Of-Distribution Samples: Experimental Results from Medical
+              Applications Lead to Theoretical Insights</a></h4>
+            <h4 class="title">ICML 2021, Uncertainty & Robustness in Deep Learning Workshop</h4>
+            <p class="description"><b>Zadorozhny Karina</b>*, Ulmer Dennis*, Cinà Giovanni <br>*co-first authors</p>
+          </div>
         </div>
 
       </div>
